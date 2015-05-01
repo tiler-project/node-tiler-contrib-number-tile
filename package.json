@@ -21,16 +21,14 @@
     "url": "https://github.com/tiler-project/node-tiler-contrib-number-tile.git"
   },
   "scripts": {
-    "test": "gulp build",
-    "release": "gulp release"
+    "test": "gulp build"
   },
   "devDependencies": {
     "del": "^1.1.1",
     "gulp": "^3.8.11",
+    "gulp-bump": "^0.3.0",
+    "gulp-changed": "^1.2.1",
     "gulp-react": "^3.0.1",
     "run-sequence": "^1.1.0"
-  },
-  "dependencies": {
-    "gulp-bump": "^0.3.0"
   }
 }
