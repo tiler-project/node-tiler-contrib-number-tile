@@ -1,0 +1,36 @@
+{
+  "name": "tiler-contrib-number-tile",
+  "version": "0.1.0",
+  "description": "NumberTile for the tiler framework",
+  "keywords": [
+    "dashboard",
+    "information",
+    "radiator",
+    "react"
+  ],
+  "homepage": "https://github.com/tiler-project/node-tiler-contrib-number-tile",
+  "license": "MIT",
+  "author": {
+    "name": "Simon Dean",
+    "email": "simon@simondean.org",
+    "url": "http://www.simondean.org"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiler-project/node-tiler-contrib-number-tile.git"
+  },
+  "scripts": {
+    "test": "gulp build",
+    "release": "gulp release"
+  },
+  "devDependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-react": "^3.0.1",
+    "run-sequence": "^1.1.0"
+  },
+  "dependencies": {
+    "gulp-bump": "^0.3.0"
+  }
+}
