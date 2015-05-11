@@ -1,10 +1,12 @@
+'use strict';
+
 var React = require('react');
 
 module.exports = React.createClass({
   render: function() {
     var styles = {
       container: {
-        color: '#ffffff',
+        color: '#fff',
         backgroundColor: '#1e1e1e',
         height: '100%'
       },
